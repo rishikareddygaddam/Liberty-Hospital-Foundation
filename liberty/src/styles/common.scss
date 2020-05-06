@@ -1,0 +1,512 @@
+$fontFamily: "Google Sans";
+$backgroundColor: #349ae0;
+
+.input-container {
+
+  .validation-error {
+    font-size: 14px !important;
+    color: rgba(255, 0, 0, 0.9);
+    display: block;
+    margin-top: 3px;
+  }
+}
+
+button {
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  background-color: $backgroundColor;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: $fontFamily;
+}
+
+.required:after {
+  content: "*";
+  color: red;
+  margin-left: 3px;
+  font-size: 18px;
+}
+
+.error-msg {
+  margin-top: 20px;
+  color: red;
+  text-align: center;
+}
+
+.sub-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+
+.input-container {
+  margin-top: 20px;
+
+  label {
+    font-weight: 400;
+    vertical-align: middle;
+    // align-self: center;
+  }
+
+  input {
+    background: none;
+    border: 1px solid #a1a1a1;
+    border-radius: 5px;
+    padding: 8px;
+    vertical-align: middle;
+    height: 36px;
+    width: 100%;
+  }
+}
+
+button {
+  outline: none;
+  margin-right: 20px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.auth-container {
+  h3 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  form {
+    width: 60%;
+  }
+
+  .row {
+    margin-top: 20px;
+  }
+
+  .validation-error {
+    margin-left: 34%;
+    margin-top: 10px;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+
+.submit-error {
+  color: red;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+}
+
+.navbar-text {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+ul {
+  li {
+    margin-right: 20px;
+  }
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.disabled {
+
+  input,
+  select {
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .radio-label {
+    pointer-events: none;
+  }
+
+  .disable-chk label {
+    pointer-events: none;
+  }
+
+  .files-dropdown {
+    display: none;
+  }
+
+  .remove-file {
+    pointer-events: none;
+  }
+}
+
+.Dropdown-arrow {
+  top: 17px;
+}
+
+.Dropdown-option,
+.Dropdown-placeholder {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.file-btn {
+  margin: 0;
+}
+
+td {
+  button {
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+}
+
+.DNI {
+  display: none !important;
+}
+
+.dropdown-toggle {
+  margin-top: 0;
+  width: 100%;
+}
+
+.validation-error {
+  // margin-left: 34%;
+  text-align: right;
+  width: 100%;
+}
+
+.bottom .react-datepicker-wrapper,
+.full .react-datepicker-wrapper {
+  width: 100%;
+}
+
+.full {
+  padding: 0;
+}
+
+.react-datepicker__input-container {
+  input {
+    width: 100%;
+  }
+}
+
+.send-to {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type=file] {
+  background: none;
+  margin-left: 20px;
+}
+
+.view-file {
+  margin-left: 10px;
+}
+
+.employee-actions {
+  input {
+    pointer-events: initial;
+    background: none;
+  }
+}
+
+.main-container {
+  .title {
+    line-height: 40px;
+  }
+
+  .form-container {
+    margin-top: 30px;
+  }
+
+  .sub-heading-line {
+    margin-top: 20px;
+  }
+
+  .family-info,
+  .extra-info,
+  .academic-info,
+  .college-info,
+  .files-info,
+  .acknowlege-info,
+  .contact-info {
+    margin-top: 30px;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+}
+
+.sibling-container {
+  margin-top: 30px;
+
+  .th {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .sibling-item {
+    margin-bottom: 10px;
+
+  }
+
+  .odd {
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0 5px;
+  }
+
+  .even {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 5px;
+  }
+}
+
+.program-list {
+  .program {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+}
+
+.patient-row {
+  margin-right: 0;
+}
+
+.submit-status {
+  text-align: center;
+}
+
+.download-container {
+  text-align: right;
+  margin-bottom: 20px;
+
+  button {
+    margin-right: 0;
+  }
+}
+
+.employee-actions.disabled input {
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.file-view {
+  margin-bottom: 20px;
+}
+
+.file-container {
+  margin-bottom: 20px;
+
+  label {
+    font-weight: 400;
+    margin-right: 20px;
+    max-width: 700px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-bottom: 0;
+  }
+
+  a {
+    font-weight: 600;
+  }
+}
+
+.navbar-dark .navbar-text a {
+  color: rgba(255, 255, 255, .5);
+}
+
+.loading {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pointer-none {
+  pointer-events: none;
+}
+
+.all-disable {
+  input {
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
+.remove-file {
+  background-image: url("../assets/close.png");
+  width: 15px;
+  height: 15px;
+  background-size: contain;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.check-status {
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .input-container {
+    text-align: center;
+
+    label {
+      margin-bottom: 20px;
+      text-align: center;
+      width: 100%;
+      font-size: 17px;
+    }
+
+    input {
+      width: 55%;
+    }
+  }
+
+  .actions-container {
+    button {
+      margin-top: 0;
+    }
+  }
+
+  .status-container {
+    margin-top: 30px;
+
+    .status-item {
+      margin-bottom: 10px;
+      display: flex;
+
+      .label {
+        margin-right: 20px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.nav-link,
+.navbar-text {
+  color: #fff !important;
+  font-size: 17px;
+
+  a {
+    color: #fff !important;
+    font-size: 17px;
+  }
+}
+
+.success-msg {
+  text-align: center;
+  margin-top: 20px;
+  display: block;
+  color: #005f00;
+}
+
+.auth-loading {
+  text-align: center;
+  margin-top: 20px;
+  display: block;
+}
+
+.auth-error {
+  text-align: center;
+}
+
+.forgot-container {
+  text-align: right;
+  margin-right: -15px;
+}
+
+.forgot-password {
+  font-size: 14px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+
+  .link-signup {
+    font-size: 14px;
+  }
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+.home-items {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+
+  .item {
+    font-size: 27px;
+    font-weight: bold;
+  }
+}
+
+.logo {
+  background-image: url(https://libertyhospitalfoundation.org/wp-content/uploads/2018/04/FinalAsset-1.png);
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.delete-sibling {
+  color: #007bff;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 30px;
+  text-align: center;
+}
+
+.approval-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.approval-list {
+  h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .approval-actions {
+    button {
+      margin-right: 10px;
+    }
+  }
+}
